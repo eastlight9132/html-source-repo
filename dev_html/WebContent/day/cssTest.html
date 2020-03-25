@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+HTML에서는 블럭요소[태그가 자체크기]와 인라인요소[한줄에열거]가있다  -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS 적용해보기</title>
+<style type="text/css">
+	div{
+		display:block;
+		width: 300px;
+		height:200px;
+		background-color:red;
+	}
+	span{
+		display:inline;
+		width: 200px;
+		height:800px;
+		background-color:green;
+	}
+	span#sp_1{ //아이디가 다가가려면 #을하고 아이디를 적으면된다.
+		display:block;
+		width: 200px;
+		height:400px;
+		background-color:yellow;
+	}
+	span#sp_2{ //아이디가 다가가려면 #을하고 아이디를 적으면된다.
+		display:none;
+		width: 200px;
+		height:400px;
+		background-color:blue;
+	}
+
+</style>
+</head>
+<body>
+<div>Div:ajx에서 많이 활용하는태그 </div>
+<span>span</span>
+<hr>
+<span id="sp_1">Hello</span>
+<span id="sp_2">HTML5!!</span>//개행이안되는태그.
+<h1>코로나19</h1>//h1은 블럭요소 태그가 자체크기< 
+</body>
+</html>
